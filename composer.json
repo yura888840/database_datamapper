@@ -1,0 +1,20 @@
+{
+  "require": {
+    "guiguiboy/php-cli-progress-bar": "dev-master",
+    "symfony/console": "*",
+    "paragonie/halite": "^1.5",
+    "monolog/monolog": "*"
+  },
+  "repositories": [
+    {"type":"git", "url": "https://github.com/guiguiboy/PHP-CLI-Progress-Bar"}
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "vendor/",
+      "Migration\\": "classes/",
+      "Migration\\Mappers\\": "mappers/",
+      "Migration\\Helpers\\": "Helpers/",
+      "Migration\\Models\\": "models/"
+    }
+  }
+}

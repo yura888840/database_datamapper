@@ -1,0 +1,15 @@
+=================================
+
+Need to setup connections first (config/config.php)
+
+
+=================================
+
+Each mapping described in mappers/(.*)Mapper.php, except BaseMapper.php
+
+
+Run
+
+=====================================
+php migrate.php
+=====================================
